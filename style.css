@@ -223,3 +223,114 @@ body {
     line-height: 19px;
     color: #F26376;
 }
+
+
+@media(max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .top__header {
+        display: flex;
+        gap: 424px;
+        flex-wrap: nowrap;
+    }
+
+    .top__header__block2 {
+        gap: 25px;
+    }
+
+    .top__header__block2__img2 {
+        margin-right: 17px;
+    }
+
+    .top__title__part {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .top__title_part__img__img {
+        max-width: 368px;
+    }
+
+    .top__title__part__block {
+        padding: 0px;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: 39px;
+        margin-right: 33px;
+    }
+
+    .top__title__part__block__text {
+        max-width: 295px;
+        min-width: 0px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .text2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .top__categories {
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
+        gap: 19px;
+        margin-bottom: 109px;
+    }
+
+    .top__categories__items {
+        max-width: 232px;
+        min-width: 232px;
+        max-height: 167px;
+        min-height: 167px;
+        background-size: contain;
+    }
+
+    .item__long {
+        min-height: 116px;
+        background-size: contain;
+        min-width: 100%;
+    }
+
+    .top__fetured__items {
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
+    }
+
+    .top__fetured__items_text1 {
+        margin-bottom: 3px;
+    }
+
+    .top__fetured__items_text2 {
+        margin-bottom: 73px;
+    }
+
+    .top__fetured__items__block {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .block__items_img {
+        margin-bottom: 25px;
+    }
+
+    .block__items__text {
+        margin-right: 28px;
+    }
+
+    .price {
+        margin-bottom: 20px;
+    }
+
+    .top__fetured__items__buttom {
+        margin-top: 32px;
+        margin-bottom: 70px;
+    }
+}
