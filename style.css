@@ -22,6 +22,7 @@ body {
     gap: 841px;
     align-content: center;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding-left: 231px;
     padding-right: 240px;
@@ -566,6 +567,10 @@ body {
             gap: 199px;
             padding: 25px 16px;
             flex-wrap: wrap;
+        }
+
+        .top__header__block2 {
+            max-width: 27px;
         }
 
         .top__header__block2__img2 {
