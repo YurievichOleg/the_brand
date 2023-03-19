@@ -1,0 +1,61 @@
+#menu__clothes {
+    position: absolute;
+    left: -99999999px;
+    visibility: hidden;
+
+    &:checked~.menu__clothes__nav {
+        // display: block;
+        right: -240px;
+        opacity: 1;
+    }
+
+}
+
+.menu__clothes {
+
+
+    &__nav {
+        // display: none;
+        background: #FFFFFF;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        width: $displayMenuClothesNav;
+        padding: 32px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 57px;
+        right: -240px - $displayMenuClothesNav;
+        transition: right 0.3s;
+        opacity: 0;
+
+
+        &__header {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            margin-bottom: 24px;
+        }
+
+        &__point {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #F16D7F;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+
+        &__subpoint {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #6F6E6E;
+            margin-left: 20px;
+            margin-bottom: 11px;
+        }
+    }
+}
