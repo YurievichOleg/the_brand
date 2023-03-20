@@ -48,14 +48,18 @@
         }
 
         &__subpoint {
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            color: #6F6E6E;
+
             margin-left: 20px;
             margin-bottom: 11px;
+
+            &__ref {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #6F6E6E;
+            }
         }
     }
 }
